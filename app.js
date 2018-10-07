@@ -36,7 +36,8 @@ App({
   globalData: {
     userInfo: null,
     // apiUrl:'https://www.allpacs.com',
-    apiUrl: 'http://192.168.1.2:8000',
+    apiUrl:'https://www.allpacs.com/qz',
+    // apiUrl: 'http://192.168.1.2:8000',
 
   }
 })
