@@ -1,0 +1,5 @@
+<!--pages/ec/ec_test.wxml-->
+<!-- <text>单图多线</text> -->
+<view class="container">
+  <ec-canvas id="test-line" canvas-id="test-line" ec="{{ ec }}"></ec-canvas>
+</view>

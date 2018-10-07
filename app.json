@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/ec/ec_test",
+    "pages/sm/sm_ec",
+    "pages/sm/sm_ec_lazy/sm_ec_lazy",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#dfffdf",
+    "navigationBarTitleText": "Q Z S M",
+    "navigationBarTextStyle":"black"
+  }
+}

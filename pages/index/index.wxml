@@ -1,0 +1,70 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="desc">探索美梦密码</view>
+
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 登录 </button>
+    <block wx:else>
+      <image bindtap="usrCenter" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">你好！{{userInfo.nickName}}</text>
+    </block>
+  </view>
+</view>
+
+<view class='user-ctl'>
+  <view class='weui-flex'>
+
+    <view class='weui-flex-item'>
+      <navigator url="../ec/ec_test" open-type="navigate" class="uploader-text">
+        <button class='weui-btn' type="primary" plain="true">美梦示例</button>
+      </navigator>
+    </view>
+
+    <view class='weui-flex-item'>
+      <navigator url="../sm/sm_ec" open-type="navigate" class="uploader-text">
+        <button class='weui-btn' type="primary" plain="true">重温美梦</button>
+      </navigator>
+    </view>
+
+    
+    <view class='weui-flex-item'>
+      <button class='weui-btn' type="primary" plain="true" bindtap='testLogin'>登录</button>
+    </view>
+
+  </view>
+
+  <view class='weui-flex'>
+
+    <view class='weui-flex-item'>
+      <navigator url="../sm/sm_ec_lazy/sm_ec_lazy" open-type="navigate" class="uploader-text">
+        <button class='weui-btn' type="primary" plain="true">美梦质量</button>
+      </navigator>
+    </view>
+
+    <!-- <view class='weui-flex-item'>
+      <navigator url="../sm/sm_ec" open-type="navigate" class="uploader-text">
+        <button class='weui-btn' type="primary" plain="true">能刷新</button>
+      </navigator>
+    </view> -->
+
+    
+    <!-- <view class='weui-flex-item'>
+      <button class='weui-btn' type="primary" plain="true" bindtap='testLogin'>多图表</button>
+    </view> -->
+
+    <view class='weui-flex-item'>
+      <button class='weui-btn' type="primary" plain="true" bindtap='showLogs'>日志</button>
+    </view>
+
+  </view>
+
+</view>
+
+
+<view class="weui-footer weui-footer_fixed-bottom" style='background-color:#dfffdf'>
+  <view class="weui-footer__links">
+    <navigator url="" class="weui-footer__link">Dr csy</navigator>
+  </view>
+  <view class="weui-footer__text">Copyright © 2017-2018 allpacs.com</view>
+</view>

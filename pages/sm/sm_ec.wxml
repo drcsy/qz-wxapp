@@ -1,0 +1,5 @@
+<!--pages/sm/sm_ec.wxml-->
+<button class='weui-btn' type="primary" plain="true" bindtap='getSmDataByUserId'>获取数据</button>
+<view class="container">
+  <ec-canvas id="sm-line" canvas-id="sm-line" ec="{{ ec }}"></ec-canvas>
+</view>

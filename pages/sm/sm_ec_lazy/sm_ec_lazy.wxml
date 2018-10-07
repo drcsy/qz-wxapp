@@ -1,0 +1,17 @@
+<!--pages/sm/sm_ec_lazy/sm_ec_lazy.wxml-->
+<view class='user-ctl'>
+  <view class='weui-flex'>
+    <view class='weui-flex-item'>
+      <button class='weui-btn' type="primary" plain="true" bindtap='getSmDataByUserId'>刷新数据</button>
+    </view>
+    <view class='weui-flex-item'>
+      <button class='weui-btn' type="primary" plain="true" bindtap='ecInit'>加载图表</button>
+    </view>
+    <view class='weui-flex-item'>
+      <button class='weui-btn' type="primary" plain="true" bindtap='newDataAndEc'>刷新数据和图表</button>
+    </view>
+  </view>
+</view>
+<view class="container">
+  <ec-canvas id="sm-line" canvas-id="sm-line" ec="{{ ec }}"></ec-canvas>
+</view>

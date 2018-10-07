@@ -1,0 +1,45 @@
+/**index.wxss**/
+.container{
+  height: 800rpx;
+}
+
+.desc{
+  margin-top: 30rpx;
+  color: #006000
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #00bb00;
+}
+
+.user-ctl{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  margin:0rpx;
+  padding: 0rpx;
+
+
+}
+.weui-flex-item{
+  padding: 10rpx;
+}
+page{
+  height:100%;
+  background-color:#dfffdf;
+  }
+
